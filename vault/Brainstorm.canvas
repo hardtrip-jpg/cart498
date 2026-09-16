@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"9aba5c47b10a409c","type":"group","x":-1180,"y":-720,"width":1480,"height":840,"label":"Desktop"},
+		{"id":"2bfc045797e20738","type":"group","x":-1180,"y":180,"width":1480,"height":680,"label":"Mobile"},
+		{"id":"fe7f5dfc00804ceb","type":"text","text":"# Main Menu\n","x":-1160,"y":-700,"width":380,"height":380},
+		{"id":"1c298cc6b44df210","type":"text","text":"# Lobby Screen\n","x":-450,"y":-700,"width":390,"height":380},
+		{"id":"88aa322a09cf0a98","type":"text","text":"","x":-1160,"y":200,"width":380,"height":260},
+		{"id":"d57b02894da8027a","x":-1160,"y":540,"width":380,"height":240,"type":"text","text":""},
+		{"id":"00fda0c197b4e12e","type":"text","text":"","x":-645,"y":200,"width":390,"height":440}
+	],
+	"edges":[
+		{"id":"6fbf46efd80a39d8","fromNode":"fe7f5dfc00804ceb","fromSide":"right","toNode":"1c298cc6b44df210","toSide":"left"},
+		{"id":"be4e8fa1c46d0d4f","fromNode":"88aa322a09cf0a98","fromSide":"bottom","toNode":"d57b02894da8027a","toSide":"top"},
+		{"id":"67ec142b901ad3d7","fromNode":"88aa322a09cf0a98","fromSide":"right","toNode":"00fda0c197b4e12e","toSide":"left"},
+		{"id":"073b9843030f50d7","fromNode":"d57b02894da8027a","fromSide":"top","toNode":"88aa322a09cf0a98","toSide":"bottom"}
+	]
+}
